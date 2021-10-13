@@ -5,7 +5,7 @@
     
 }
 * {
-    border: red 1px solid;
+    border: red 0git px solid;
     font-family:var(--font-family);
     background-color: var(--backgroundcolor);
 }
@@ -41,16 +41,19 @@ header li {
   section {
     border: 7px black solid;
     display: flex;
-    margin:100px 0 100px 25px;  
+    margin:100px 0 100px 0px;  
   }
   section  h2 {
-     margin: 20px 250px 0px 10px;
-     font-size: 45px;
+     margin:100px 100px 100px 10px;
+     font-size: 75px;
+     width: 400px;
+
   }
   section p {
     font-size: 25px;
     list-style: none;
     display: inline;
-    margin: 0px 20px 0px 0px;
+    margin: 100px 20px 0px 0px;
+    text-align: center;
   }
       
