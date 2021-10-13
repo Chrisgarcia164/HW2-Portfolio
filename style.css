@@ -5,7 +5,7 @@
     
 }
 * {
-    border: red 0px solid;
+    border: red 1px solid;
     font-family:var(--font-family);
     background-color: var(--backgroundcolor);
 }
@@ -54,23 +54,57 @@ header li {
   
   .about_me p {
     font-size: 30px;
-    list-style: none;
     display: inline;
     margin: 100px 20px 0px 0px;
     text-align: center;
     background-color: lightblue; 
   }
 .Works {
-    border: 7px black solid;
-    display: flex;
+    display: block;
     margin:100px 0 100px 0px; 
-    background-color: lightblue; 
+    background-color: lightblue;
+    
 }
 #Work {
-    margin:100px 100px 100px 10px;
-     font-size: 75px;
+     position: absolute;
+     margin:100px 100px 100px 10px;
+     font-size: 95px;
      width: 400px;
-     background-color: lightblue; 
+     background-color: lightblue;
+     display: block;
 }
+figure {
+    background-color: lightblue;
+    
+}
+img {
+    width: 20%;
+    height: auto;
+    border: solid 5px black;
+    margin: 75px 0 100px 500px;
+    border: solid 5px black;
+    
+}
+#neo {
+    height: auto;
+    border: solid 5px black;
+    
+    
+}
+#placeholder {
+    width: 100%;
+    height: auto;
+   
+}
+#Morpheus {
+    
+}
+
+figcaption {
+    background-color:lightblue;
+    font-size: 20px;
+    text-align: center;
+}
+
 
       
