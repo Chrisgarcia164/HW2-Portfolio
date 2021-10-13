@@ -7,21 +7,50 @@
 * {
     border: red 1px solid;
     font-family:var(--font-family);
+    background-color: var(--backgroundcolor);
 }
 
 
-ul li {
+header li {
+    font-size: 25px;
     list-style: none;
     display: inline;
     margin: 0px 20px 0px 0px;
+    background-color: lightblue;
   }
-  
+  a {
+    background-color: lightblue;
+  }
   h1 {
-    margin: 40px 0px 0px 40px;
+    margin: 40px 0px 0px 10px;
+    font-size: 45px;
+    background-color: lightblue;
   }
   
   header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    background-color: lightblue;
+    border: rgb(63, 63, 247) 10px solid;
   }
+  header ul {
+      background-color:lightblue;
+  }
+  
+  section {
+    border: 7px black solid;
+    display: flex;
+    margin:100px 0 100px 25px;  
+  }
+  section  h2 {
+     margin: 20px 250px 0px 10px;
+     font-size: 45px;
+  }
+  section p {
+    font-size: 25px;
+    list-style: none;
+    display: inline;
+    margin: 0px 20px 0px 0px;
+  }
+      
