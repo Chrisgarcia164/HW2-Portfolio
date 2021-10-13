@@ -116,8 +116,10 @@ figcaption {
 #resume {
     background-color: lightblue;
 }
-#Resume-example {
-    width: 100%;
+.Resumes img {
+    width: 60%;
     height: auto;
+    text-align: center;
+    margin: 10px 250px 10px 250px;
 }
       
