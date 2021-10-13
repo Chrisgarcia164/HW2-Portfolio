@@ -1,8 +1,27 @@
 :root {
     --backgroundcolor: rgb(139, 139, 139);
-    font-family: sans-serif;
+    --font-family: sans-serif;
+
     
 }
 * {
-    background-color: var(--backgroundcolor);
+    border: red 1px solid;
+    font-family:var(--font-family);
 }
+
+
+ul li {
+    list-style: none;
+    display: inline;
+    margin: 0px 20px 0px 0px;
+  }
+  
+  h1 {
+    margin: 40px 0px 0px 40px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
