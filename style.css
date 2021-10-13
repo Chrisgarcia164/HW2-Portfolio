@@ -5,7 +5,7 @@
     
 }
 * {
-    border: red 0git px solid;
+    border: red 0px solid;
     font-family:var(--font-family);
     background-color: var(--backgroundcolor);
 }
@@ -32,28 +32,45 @@ header li {
     justify-content: space-between;
     align-items: baseline;
     background-color: lightblue;
-    border: rgb(63, 63, 247) 10px solid;
+    border: 7pxblack solid;
   }
   header ul {
       background-color:lightblue;
   }
   
-  section {
+  .about_me {
     border: 7px black solid;
     display: flex;
-    margin:100px 0 100px 0px;  
+    margin:100px 0 100px 0px; 
+    background-color: lightblue; 
   }
-  section  h2 {
+  #About-me {
      margin:100px 100px 100px 10px;
      font-size: 75px;
      width: 400px;
+     background-color: lightblue; 
 
   }
-  section p {
-    font-size: 25px;
+  
+  .about_me p {
+    font-size: 30px;
     list-style: none;
     display: inline;
     margin: 100px 20px 0px 0px;
     text-align: center;
+    background-color: lightblue; 
   }
+.Works {
+    border: 7px black solid;
+    display: flex;
+    margin:100px 0 100px 0px; 
+    background-color: lightblue; 
+}
+#Work {
+    margin:100px 100px 100px 10px;
+     font-size: 75px;
+     width: 400px;
+     background-color: lightblue; 
+}
+
       
