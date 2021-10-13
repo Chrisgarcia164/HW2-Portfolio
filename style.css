@@ -5,7 +5,7 @@
     
 }
 * {
-    border: red 1px solid;
+    
     font-family:var(--font-family);
     background-color: var(--backgroundcolor);
 }
@@ -123,3 +123,24 @@ figcaption {
     margin: 10px 250px 10px 250px;
 }
       
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: lightblue;
+    border: 7pxblack solid;
+}
+footer h3 {
+    font-size: 30px;
+    background-color: lightblue;
+}
+footer ul {
+    background-color: lightblue;
+}
+footer li {
+    font-size: 25px;
+    list-style: none;
+    display: inline;
+    margin: 0px 50px 0px 0px;
+    background-color: lightblue;
+}
