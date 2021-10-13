@@ -32,7 +32,8 @@ header li {
     justify-content: space-between;
     align-items: baseline;
     background-color: lightblue;
-    border: 7pxblack solid;
+    border: 7px black solid;
+
   }
   header ul {
       background-color:lightblue;
@@ -63,7 +64,7 @@ header li {
     display: block;
     margin:100px 0 100px 0px; 
     background-color: lightblue;
-    
+    border: 5px black solid;
 }
 #Work {
      position: absolute;
@@ -87,7 +88,8 @@ img {
 }
 #neo {
     height: auto;
-    border: solid 5px black;
+    border-top: 5px black solid;
+    
     
     
 }
@@ -97,7 +99,7 @@ img {
    
 }
 #Morpheus {
-    
+    border-top: 5px black solid;
 }
 
 figcaption {
