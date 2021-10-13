@@ -1,0 +1,8 @@
+:root {
+    --backgroundcolor: rgb(139, 139, 139);
+    font-family: sans-serif;
+    
+}
+* {
+    background-color: var(--backgroundcolor);
+}
