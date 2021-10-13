@@ -105,6 +105,19 @@ figcaption {
     font-size: 20px;
     text-align: center;
 }
+.Resumes {
+    font-size: 75px;
+    border: 7px black solid;
+    display: flex;
+    margin:100px 0 100px 0px; 
+    background-color: lightblue; 
+}
 
-
+#resume {
+    background-color: lightblue;
+}
+#Resume-example {
+    width: 100%;
+    height: auto;
+}
       
