@@ -1,149 +1,151 @@
 :root {
-    --backgroundcolor: rgb(139, 139, 139);
-    --font-family: sans-serif;
-
-    
+  --backgroundcolor: rgb(139, 139, 139);
+  --font-family: sans-serif;
 }
 * {
-    
-    font-family:var(--font-family);
-    background-color: var(--backgroundcolor);
+  font-family: var(--font-family);
+  background-color: var(--backgroundcolor);
 }
-
 
 header li {
-    font-size: 25px;
-    list-style: none;
-    display: inline;
-    margin: 0px 20px 0px 0px;
-    background-color: lightblue;
-  }
-  a {
-    background-color: lightblue;
-  }
-  h1 {
-    margin: 40px 0px 0px 10px;
-    font-size: 45px;
-    background-color: lightblue;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    background-color: lightblue;
-    border: 7px black solid;
+  font-size: 25px;
+  list-style: none;
+  display: inline;
+  margin: 0px 20px 0px 0px;
+  background-color: lightblue;
+}
+a {
+  background-color: lightblue;
+  text-align: center;
+}
+h1 {
+  margin: 40px 0px 0px 10px;
+  font-size: 45px;
+  background-color: lightblue;
+}
 
-  }
-  header ul {
-      background-color:lightblue;
-  }
-  
-  .about_me {
-    border: 7px black solid;
-    display: flex;
-    margin:100px 0 100px 0px; 
-    background-color: lightblue; 
-  }
-  #About-me {
-     margin:100px 100px 100px 10px;
-     font-size: 75px;
-     width: 400px;
-     background-color: lightblue; 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: lightblue;
+  border: 7px black solid;
+}
+header ul {
+  background-color: lightblue;
+}
 
-  }
-  
-  .about_me p {
-    font-size: 30px;
-    display: inline;
-    margin: 100px 20px 0px 0px;
-    text-align: center;
-    background-color: lightblue; 
-  }
+.about_me {
+  border: 7px black solid;
+  display: flex;
+  margin: 100px 0 100px 0px;
+  background-color: lightblue;
+}
+#About-me {
+  margin: 100px 100px 100px 10px;
+  font-size: 75px;
+  width: 400px;
+  background-color: lightblue;
+}
+
+.about_me p {
+  font-size: 30px;
+  display: inline;
+  margin: 100px 20px 0px 0px;
+  text-align: center;
+  background-color: lightblue;
+}
 .Works {
-    display: block;
-    margin:100px 0 100px 0px; 
-    background-color: lightblue;
-    border: 5px black solid;
+  display: block;
+  margin: 100px 0 100px 0px;
+  background-color: lightblue;
+  border: 5px black solid;
+
 }
 #Work {
-     position: absolute;
-     margin:100px 100px 100px 10px;
-     font-size: 95px;
-     width: 400px;
-     background-color: lightblue;
-     display: block;
+  border-right: solid 1px black;
+  position: absolute;
+  margin: 100px 100px 100px 10px;
+  font-size: 95px;
+  width: 400px;
+
+  background-color: lightblue;
+  display: block;
 }
 figure {
-    background-color: lightblue;
-    
+  background-color: lightblue;
+  text-align: center;
 }
-img {
-    width: 20%;
-    height: auto;
-    border: solid 5px black;
-    margin: 75px 0 100px 500px;
-    border: solid 5px black;
-    text-align: center;
-    
+#moodvie-img {
+
+    background-color: lightblue;
+
+}
+#moodvie-img img{
+    width: auto;
+    height: 300px;
+    margin-left: 190px;
+    padding: 20px 0;
+    background-color: lightblue;
 }
 #neo {
-    height: auto;
-    border-top: 5px black solid;
-    
-    
-    
+  height: auto;
+  border-top: 5px black solid;
 }
 #placeholder {
-    width: 100%;
-    height: auto;
-   
+  width: 100%;
+  height: auto;
 }
 #Morpheus {
-    border-top: 5px black solid;
+  border-top: 5px black solid;
 }
 
 figcaption {
-    background-color:lightblue;
-    font-size: 20px;
-    text-align: center;
+  background-color: lightblue;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 200px ;
 }
 .Resumes {
-    font-size: 40px;
-    border: 7px black solid;
-    display: flex;
-    margin:100px 0 100px 0px; 
-    background-color: lightblue; 
+  font-size: 40px;
+  border: 7px black solid;
+  display: flex;
+  margin: 100px 0 100px 0px;
+  background-color: lightblue;
 }
 
 #resume {
-    background-color: lightblue;
+  background-color: lightblue;
 }
 .Resumes img {
-    width: 60%;
-    height: auto;
-    text-align: center;
-    margin: 10px 250px 10px 250px;
+  width: 60%;
+  height: auto;
+  text-align: center;
+  margin: 10px 250px 10px 250px;
 }
-      
+
 footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    background-color: lightblue;
-    border: 7pxblack solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: lightblue;
+  border: 7pxblack solid;
 }
 footer h3 {
-    font-size: 30px;
-    background-color: lightblue;
+  font-size: 30px;
+  background-color: lightblue;
 }
 footer ul {
-    background-color: lightblue;
+  background-color: lightblue;
 }
 footer li {
-    font-size: 25px;
-    list-style: none;
-    display: inline;
-    margin: 0px 50px 0px 0px;
-    background-color: lightblue;
+  font-size: 25px;
+  list-style: none;
+  display: inline;
+  margin: 0px 50px 0px 0px;
+  background-color: lightblue;
+}
+#projects {
+    border: solid red 1px;
+    border-right: black 1px solid;
 }
